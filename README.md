@@ -8,7 +8,7 @@ A Bearer Token is an opaque string, not intended to have any meaning to clients 
 
 ## Links and Resources
 
-- [submission PR]()
+- [submission PR](https://github.com/401-advanced-javascript-Rashid/Lab-Class-13/pull/1)
 
 ## Setup
 
@@ -36,3 +36,5 @@ A Bearer Token is an opaque string, not intended to have any meaning to clients 
 - nodemon 
 
 ## UML 
+
+https://github.com/401-advanced-javascript-Rashid/Lab-Class-13/blob/Bearer-Authorization/assest/20200214_193953.jpg?raw=true
