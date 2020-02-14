@@ -21,9 +21,9 @@ users.save = async function (info){
   }
 };
 
-users.tokenGenerator = async function(data){
+users.tokenGenerator = async function(info){
   try{
-    return await jwt.sign({user: `${data.name}`}, 'SECRET' , {expiresIn: '18m'});
+    return await jwt.sign({user: `${info.name}`}, 'SECRET' , {expiresIn: '18m'});
   } catch(error) {
     return Promise.reject(error);
   }

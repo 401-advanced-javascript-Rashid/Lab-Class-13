@@ -13,8 +13,8 @@ module.exports = async (req , res , next) => {
   users.basicAuth(user , password)
     .then(result => { return users.generatorToken(result);
     })
-    .then(data => { 
-      req.token = data;
+    .then(info => { 
+      req.token = info;
       next();
     })
     .catch(error => 
